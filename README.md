@@ -1,5 +1,4 @@
-# __
-__Iterated Attentive Convolution Matching Network (IACMN)__
+## __Iterated Attentive Convolution Matching Network (IACMN)__
 
 This is an implementation of our CIKM 2019 paper: [Multi-Turn Response Selection in Retrieval-Based Chatbots with Iterated Attentive Convolution Matching Network].
 
@@ -11,14 +10,14 @@ IACMN iteratively constructs multi-grained representations of the response candi
 
 IACMN calculates and integrates the interaction matrices between each utterance-response pair from different views, then accumulate the sequencial matching vector into a fused vector to obtain the final score.
 
-- **Model overview** 
+- **Model Overview** 
 <div align=center>
 <img src="appendix/model.png" width=800>
 </div>
 
-- **AGDR block** 
+- **AGDR Block** 
 <div align=center>
-<img src="appendix/AGDR_layer.jpeg" width=800>
+<img src="appendix/AGDR_layer.jpeg" width=500>
 </div>
 
 
@@ -30,7 +29,7 @@ We test IACMN on two large-scale multi-turn response selection tasks, i.e., the 
 
 ## __Usage__
 
-First, please download [data](https://pan.baidu.com/s/1hakfuuwdS8xl7NyxlWzRiQ "data") and unzip it:
+First, please download data according to data/ReadMe.txt and unzip it:
 ```
 cd data
 unzip data.zip
@@ -38,13 +37,13 @@ unzip data.zip
 
 Train and test the model by:
 ```
-sh run.sh
+python main.py
 ```
 
 ## __Dependencies__
 
-- Python >= 2.7.3
-- Tensorflow == 1.2.1
+- Python >= 3.5
+- Tensorflow >= 1.4
 
 ## __Citation__
 If you use this code, please cite the following paper:
