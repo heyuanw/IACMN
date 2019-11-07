@@ -49,12 +49,12 @@ python main.py
 If you use this code, please cite the following paper:
 
 ```
-@inproceedings{ ,
-  title={Multi-Turn Response Selection for Chatbots with Deep Attention Matching Network},
-  author={Xiangyang Zhou, Lu Li, Daxiang Dong, Yi Liu, Ying Chen, Wayne Xin Zhao, Dianhai Yu and Hua Wu},
-  booktitle={Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)},
-  volume={1},
-  pages={  --  },
-  year={2018}
+@inproceedings{wang2019multi,
+  title={Multi-Turn Response Selection in Retrieval-Based Chatbots with Iterated Attentive Convolution Matching Network},
+  author={Wang, Heyuan and Wu, Ziyi and Chen, Junyu},
+  booktitle={Proceedings of the 28th ACM International Conference on Information and Knowledge Management},
+  pages={1081--1090},
+  year={2019},
+  organization={ACM}
 }
 ```
