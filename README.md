@@ -12,12 +12,12 @@ IACMN calculates and integrates the interaction matrices between each utterance-
 
 - **Model Overview** 
 <div align=center>
-<img src="appendix/model.png" width=800>
+<img src="./appendix/model.png" width=800>
 </div>
 
 - **AGDR Block** 
 <div align=center>
-<img src="appendix/AGDR_layer.jpeg" width=500>
+<img src="./appendix/AGDR_layer.jpeg" width=500>
 </div>
 
 
@@ -25,7 +25,7 @@ IACMN calculates and integrates the interaction matrices between each utterance-
 
 We test IACMN on two large-scale multi-turn response selection tasks, i.e., the Ubuntu Corpus v1 and Douban Conversation Corpus, experimental results are bellow:
 
-<img src="appendix/result.png">
+<img src="./appendix/result.png">
 
 ## __Usage__
 
